@@ -1,0 +1,34 @@
+{
+  "name": "@gio-shara/google-sheets-api",
+  "version": "1.0.0",
+  "description": "This package does magic with google sheets api",
+  "main": "out/index.js",
+  "displayName": "GoogleSheetsAPI",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./out/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "Google Sheets Api",
+    "Google Service Account Auth"
+  ],
+  "homepage": "https://github.com/gio-shara-code/google-sheets-api",
+  "author": "Giorgi Sharashenidze <gio.shara12345@gmail.com> (https://sharashenidze.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "@gio-shara/google-sheets-api": "^1.0.0",
+    "@google-cloud/local-auth": "2.1.0",
+    "googleapis": "105"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "out/"
+  ],
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
