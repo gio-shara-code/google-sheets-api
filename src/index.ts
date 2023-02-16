@@ -39,7 +39,7 @@ export class GoogleSpreadSheetsApi {
     });
   }
 
-  async updateSpreadSheet(values: any[][]) {
+  async updateSpreadSheet(values: (string | number)[][]) {
     return await this.sheets.spreadsheets.values.append({
       spreadsheetId: this.spreadSheetId,
       auth: await this.auth.getClient(),

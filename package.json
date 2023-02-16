@@ -2,8 +2,9 @@
   "name": "@gio-shara/google-sheets-api",
   "version": "1.0.2",
   "description": "This package does magic with google sheets api",
-  "main": "out/index.js",
   "displayName": "GoogleSheetsAPI",
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node ./out/index.js",
