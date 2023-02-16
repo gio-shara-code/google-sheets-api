@@ -15,9 +15,9 @@ export interface GoogleSheetsApiConstructorArgs {
 }
 
 export class GoogleSpreadSheetsApi {
-  auth: Auth.GoogleAuth;
-  spreadSheetId: string;
-  sheets: sheets_v4.Sheets;
+  private auth: Auth.GoogleAuth;
+  private spreadSheetId: string;
+  private sheets: sheets_v4.Sheets;
 
   constructor(args: GoogleSheetsApiConstructorArgs) {
     this.sheets = google.sheets("v4");
