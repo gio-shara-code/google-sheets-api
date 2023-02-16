@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@gio-shara/google-sheets-api': ^1.0.0
+  '@gio-shara/google-sheets-api': ^1.0.1
   '@google-cloud/local-auth': 2.1.0
   '@tsconfig/node16': ^1.0.3
   '@types/node': ^18.13.0
@@ -9,7 +9,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  '@gio-shara/google-sheets-api': 1.0.0
+  '@gio-shara/google-sheets-api': 1.0.1
   '@google-cloud/local-auth': 2.1.0
   googleapis: 105.0.0
 
@@ -20,8 +20,8 @@ devDependencies:
 
 packages:
 
-  /@gio-shara/google-sheets-api/1.0.0:
-    resolution: {integrity: sha512-k0BNjFASgR78nbN9u0D87Pe7SsMeX8C+MCdt946LtaAaBeru0cFwo6FWnT61pOVl8yoPnjQA84QShtVJn5iG5A==}
+  /@gio-shara/google-sheets-api/1.0.1:
+    resolution: {integrity: sha512-8PHbces50JC2juPbPCQrauTMF7YoQAlkhxII6l7TpjXgsnvdRZ8tcyC/al1CCHJ9xAci+9H2Z1X2byo8ZZlDxg==}
     dependencies:
       '@google-cloud/local-auth': 2.1.0
       googleapis: 105.0.0
