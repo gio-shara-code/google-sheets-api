@@ -19,7 +19,6 @@
   "author": "Giorgi Sharashenidze <gio.shara12345@gmail.com> (https://sharashenidze.dev/)",
   "license": "MIT",
   "dependencies": {
-    "@gio-shara/google-sheets-api": "^1.0.1",
     "@google-cloud/local-auth": "2.1.0",
     "googleapis": "105"
   },
