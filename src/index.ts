@@ -53,11 +53,11 @@ export class GoogleSpreadSheetsApi {
     });
   }
 
-  async getSpreadSheetCells() {
-    return await this.sheets.spreadsheets.get({
-      spreadsheetId: this.spreadSheetId,
-      includeGridData: true,
-      auth: await this.auth.getClient(),
-    });
-  }
+  // async getSpreadSheetCells() {
+  //   return await this.sheets.spreadsheets.get({
+  //     spreadsheetId: this.spreadSheetId,
+  //     includeGridData: true,
+  //     auth: await this.auth.getClient(),
+  //   });
+  // }
 }
