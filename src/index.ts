@@ -25,12 +25,13 @@ export class GoogleSpreadSheetsApi {
     const { credentials, projectId, scope, spreadSheetId } = args;
     this.spreadSheetId = spreadSheetId;
     this.auth = new google.auth.GoogleAuth({
-      projectId,
+      // projectId,
       credentials: {
-        client_id: credentials.clientId,
+        type: "service_account",
+        // client_id: credentials.clientId,
         client_email: credentials.clientEmail,
         private_key: credentials.privateKey,
-        token_url: credentials.tokenUrl,
+        // token_url: credentials.tokenUrl,
       },
       scopes:
         scope === "readonly"
