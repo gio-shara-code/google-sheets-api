@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node ./out/index.js",
     "build": "tsc",
-    "client": "pnpm build && node client.js"
+    "client": "pnpm build && node client.js",
+    "realese": "pnpm build && npm publish --access public"
   },
   "keywords": [
     "google-spread-sheet-api",
