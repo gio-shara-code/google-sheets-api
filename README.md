@@ -42,6 +42,8 @@ You'll get the following result:
 ]
 ```
 
+Important: The titles has to be in the first row. Otherwise it won't work.
+
 ## Requirements
 
 - You need to have an account at [Google Cloud](https://cloud.google.com/)
