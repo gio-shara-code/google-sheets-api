@@ -10,7 +10,8 @@
     "start": "tsc && node ./out/index.js",
     "build": "tsc",
     "client": "pnpm build && node client.js",
-    "realese": "pnpm build && npm publish --access public"
+    "realese": "pnpm build && npm publish --access public",
+    "version:patch": "npm version patch"
   },
   "keywords": [
     "google-spread-sheet-api",
