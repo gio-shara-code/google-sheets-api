@@ -92,3 +92,7 @@ googleSheetsApi.insertRows([
   ["2", "hello2@world.com", "123456789"],
 ]);
 ```
+
+### Contact
+
+Let me guys know if I can improve something or implement a new feature. Request them on the following email `giorgi.sharashenidze@code.berlin`
