@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node ./out/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "client": "pnpm build && node client.js"
   },
   "keywords": [
     "google-spread-sheet-api",
@@ -19,17 +20,18 @@
   "author": "Giorgi Sharashenidze <gio.shara12345@gmail.com> (https://sharashenidze.dev/)",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/local-auth": "2.1.0",
     "googleapis": "105"
   },
   "files": [
     "LICENSE",
     "Readme.md",
-    "out/"
+    "out/",
+    "assets/"
   ],
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.13.0",
+    "dotenv": "^16.0.3",
     "typescript": "^4.9.5"
   }
 }
