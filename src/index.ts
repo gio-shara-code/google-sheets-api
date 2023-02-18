@@ -1,15 +1,15 @@
 import { google, sheets_v4, Auth } from "googleapis";
 
 interface Credentials {
-  clientId: string;
+  // clientId: string;
   clientEmail: string;
   privateKey: string;
-  tokenUrl: string;
+  // tokenUrl: string;
 }
 
 export interface GoogleSheetsApiConstructorArgs {
   scope: "readonly" | "write";
-  projectId: string;
+  // projectId: string;
   credentials: Credentials;
   spreadSheetId: string;
 }
@@ -22,7 +22,7 @@ export class GoogleSpreadSheetsApi {
   constructor(args: GoogleSheetsApiConstructorArgs) {
     this.sheets = google.sheets("v4");
 
-    const { credentials, projectId, scope, spreadSheetId } = args;
+    const { credentials, scope, spreadSheetId } = args;
     this.spreadSheetId = spreadSheetId;
     this.auth = new google.auth.GoogleAuth({
       // projectId,
