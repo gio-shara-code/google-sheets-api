@@ -1,6 +1,6 @@
 {
   "name": "@gio-shara/google-sheets-api",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This package does magic with google sheets api",
   "displayName": "GoogleSheetsAPI",
   "main": "./out/index.js",
