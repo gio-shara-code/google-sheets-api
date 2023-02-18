@@ -95,6 +95,6 @@ googleSheetsApi.insertRows([
 ]);
 ```
 
-### Contact
+## Contact
 
 Let me guys know if I can improve something or implement a new feature. Request them on the following email `giorgi.sharashenidze@code.berlin`
