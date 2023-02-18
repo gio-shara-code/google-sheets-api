@@ -10,7 +10,7 @@
     "start": "tsc && node ./out/index.js",
     "build": "tsc",
     "client": "pnpm build && node client.js",
-    "realese": "pnpm build && npm publish --access public",
+    "release": "pnpm build && npm publish --access public",
     "version:patch": "npm version patch"
   },
   "keywords": [
