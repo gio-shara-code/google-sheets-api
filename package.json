@@ -27,8 +27,7 @@
   "files": [
     "LICENSE",
     "Readme.md",
-    "out/",
-    "assets/"
+    "out/"
   ],
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
