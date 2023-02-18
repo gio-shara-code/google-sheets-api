@@ -60,7 +60,7 @@ Import `GoogleSpreadSheetsApi` class:
 ```typescript
 const { GoogleSpreadSheetsApi } = require("@gio-shara/google-sheets-api");
 // or
-import GoogleSpreadSheetsApi from "@gio-shara/google-sheets-api";
+import { GoogleSpreadSheetsApi } from "@gio-shara/google-sheets-api";
 ```
 
 ### Create instance of the class:
