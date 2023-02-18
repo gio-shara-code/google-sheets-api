@@ -49,6 +49,8 @@ You'll get the following result:
 - Enable Google Sheets [API Enable](https://console.cloud.google.com/apis/enableflow?apiid=sheets.googleapis.com)
 - You need a Service Account for interacting from your code
 
+### Once you create Service Account you need to share your spread sheet with the client email so that you won't get permission error [`The caller does not have permission`](https://stackoverflow.com/questions/38949318/google-sheets-api-returns-the-caller-does-not-have-permission-when-using-serve) which is a known issue.
+
 ## Usage
 
 Import `GoogleSpreadSheetsApi` class:
